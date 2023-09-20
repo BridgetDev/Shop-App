@@ -1,0 +1,52 @@
+.container {
+  position: absolute;
+  display: flex;
+  left: 30%;
+  top: 10%;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  min-width: 600px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px none;
+  border-radius: 8px;
+  min-height: 500px;
+}
+.btn {
+  background-color: #3b71ca;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#email,
+#password {
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.reset {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+// .reset input[type="checkbox"] {
+//   margin-right: 1px;
+// }
+.forgot-password {
+  text-decoration: none;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #3b71ca;
+}
